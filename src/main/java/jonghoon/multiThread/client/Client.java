@@ -1,8 +1,8 @@
-package jonghoon.multiThread.main;
+package jonghoon.multiThread.client;
 
 import jonghoon.multiThread.workerthread.execute.WorkerThreadExecutor;
 
-public class Main {
+public class Client {
     public static void main(String[] args) {
         WorkerThreadExecutor workerThreadExecutor = new WorkerThreadExecutor();
         workerThreadExecutor.execute();
