@@ -1,11 +1,13 @@
-package jonghoon.multiThread.client;
+package jonghoon.multiThread.workerthread.execute;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import jonghoon.multiThread.workerthread.channel.Channel;
+import jonghoon.multiThread.workerthread.client.ClientThread;
 import jonghoon.multiThread.workerthread.client.ClientThreadV2;
 
-public class ExecutorServiceClient {
-    public static void main(String[] args) {
+public class WorkerThreadExecutorV2 {
+    public void execute() {
         ExecutorService executorService = Executors.newFixedThreadPool(5);
 
         try {
